@@ -9,7 +9,7 @@
 <body>
     <header>
         <div class="logo">
-            ABU CYBERCAFE
+            <h2>ABU CYBERCAFÉ</h2>
             <!-- <img src="logo/cybercafe-logo.png" alt="logo"> -->
         </div>
          <button class="mobile-menu-toggle" aria-label="Toggle menu" onclick="toggleMenu()">
@@ -20,11 +20,11 @@
 
         <nav class="navbar">
             <ul>
-                <li><a href="#">Home </a></li>
-                <li><a href="#">Membership & Pricing</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">About Us</a></li>
+                <li><a href="#home">Home </a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#news">Contact</a></li>
+                <li><a href="#news">About Us</a></li>
             </ul>
         </nav>
     </header>
@@ -34,7 +34,7 @@
             <div class="slider">
                 <img src="banner/cybercafe1.jpg" alt="event1">
                 <div class="slider-text">
-                    <h2>ABU Cybercafe</h2>
+                    <h2>ABU CYBERCAFÉ</h2>
                     <p>Your Space to Surf, Work & Chill</p>
                     <button><img src="logo/Facebook.png" alt="facebook"></button>
                     <button><img src="logo/Instagram.png" alt="instagram"></button>
@@ -88,7 +88,45 @@
             </div>
         </div>
 
-        <div class="event-title">
+        <div class="pricing-section" id="pricing">
+            <div class="pricing-title">
+                <h2>Our Rates</h2>
+                <p>Affordable pricing for everyone</p>
+            </div>
+            <div class="pricing-container">
+                <div class="pricing-card">
+                    <span class="pc-type-badge">🎮 Gaming PC</span>
+                    <h3>Gaming Experience</h3>
+                    <div class="pricing-item">
+                        <span class="duration">1 Hour</span>
+                        <span class="price">RM 3.00</span>
+                    </div>
+                    <div class="pricing-item">
+                        <span class="duration">3 Hours Package</span>
+                        <span class="price">RM 8.00</span>
+                    </div>
+                </div>
+
+                <div class="pricing-card">
+                    <span class="pc-type-badge">💻 Normal PC</span>
+                    <h3>Regular Usage</h3>
+                    <div class="pricing-item">
+                        <span class="duration">1 Hour</span>
+                        <span class="price">RM 2.50</span>
+                    </div>
+                    <div class="pricing-item">
+                        <span class="duration">Package A - 3 Hours</span>
+                        <span class="price">RM 6.50</span>
+                    </div>
+                    <div class="pricing-item">
+                        <span class="duration">Package B - 5 Hours</span>
+                        <span class="price">RM 10.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="event-title" id="news">
             <h2>Most Played Games Here</h2>
             <p>Exciting game for you to try</p>
         </div>
@@ -140,7 +178,7 @@
         </div>
     </div>
     <footer>
-        <div class="flogo">
+        <div class="flogo" >
             <img src="logo/cybercafe-logo.png" alt="flogo" style="width: 20%;">
             <p>Your Space to Surf, Work & Chill</p>
         </div>
